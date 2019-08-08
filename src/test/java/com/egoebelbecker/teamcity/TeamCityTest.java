@@ -9,6 +9,6 @@ public class TeamCityTest {
 
     @Test
     public void getStatus() {
-        assertTrue(teamCity.getStatus());
+        assertFalse(teamCity.getStatus());
     }
 }
